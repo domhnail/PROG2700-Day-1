@@ -1,0 +1,42 @@
+body {
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+  background-color: #2f3845;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  text-align: center;
+  max-width: 100%;
+  padding: 20px;
+}
+
+main {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSplash {
+  text-align: center;
+  background-color: rgba(150, 171, 255, .2);
+  padding: 15px;
+}
+
+.button {
+  padding: 10px;
+  border-color: aquamarine;
+  border-style: solid;
+  background-color: #6688ad;
+  border-radius: 0;
+  color: aliceblue;
+}
+
+.button:hover {
+  background-color: #95c1ff;
+}
